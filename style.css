@@ -1,0 +1,38 @@
+.banner {
+    margin-bottom: 20px; /* Adjust the desired amount of space */
+    margin-right: 70px; /* Adjust the desired amount of space */
+    margin-left: 70px; /* Adjust the desired amount of space */
+    
+  }
+
+
+.productcards {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.howitworks{
+    margin-top: 20px;
+    background-color: rgb(245, 245, 245);
+}
+
+.hiw-head{
+    text-align: center;
+}
+
+.material-symbols-outlined{
+    margin-left: 300px;
+}
+
+.banner{
+    font-family: Sora, "sans-serif";
+    background-image: url(images\banner-img.jpeg);
+    background-position: center;
+}
+
+.body{
+    color: var(#888);
+    line-height: 1.7;
+    
+}
+
