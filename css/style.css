@@ -1,7 +1,7 @@
-@font-face {
+/* @font-face {
     font-family: 'babyface';
     src: url(/fonts/BabyFace-xj9q.woff);
-}
+} */
 
 
 
@@ -11,7 +11,7 @@
 
 .brand-nav {
     color: rgba(3, 89, 86, 1);
-    font-family: 'babyface';
+    font-family: sans-serif;
     font-size: 2.25em;
 }
 
@@ -75,4 +75,9 @@
 
 .footer-bottom {
     background-color: #242933;
+}
+
+.logo{
+    height: auto;
+    width: 30%;
 }
