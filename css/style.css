@@ -1,60 +1,76 @@
-.banner {
-    margin-bottom: 20px; /* Adjust the desired amount of space */
-    margin-right: 70px; /* Adjust the desired amount of space */
-    margin-left: 70px; /* Adjust the desired amount of space */
-    
-  }
-
-  :root {
-    --primary: #0d6efd;
-    --dark: #21252f;
-    --body: #888;
-    --white: #ffffff;
-    --box-shadow: 0 8px 22px rgba(0,0,0,0.1);
+@font-face {
+    font-family: 'babyface';
+    src: url(/fonts/BabyFace-xj9q.woff);
 }
 
-.productcards {
-    margin-left: 20px;
-    margin-right: 20px;
+
+
+.active {
+    font-weight: 500;
 }
 
-.howitworks{
-    margin-top: 20px;
-    background-color: rgb(245, 245, 245);
+.brand-nav {
+    color: rgba(3, 89, 86, 1);
+    font-family: 'babyface';
+    font-size: 2.25em;
 }
 
-.hiw-head{
-    text-align: center;
+.nav-item {
+    margin-right: 30px;
 }
 
-.material-symbols-outlined{
-    margin-left: 300px;
+.carousel,
+.carousel-inner {
+    height: 45em;
 }
 
-.banner{
-    font-family: Sora, "sans-serif";
-    background-image: url(images\banner-img.jpeg);
-    background-position: center;
+
+.firstblock{
+    margin-top: 5em;
+    /* background-color: #184D47; */
+    height: 41em;
+    margin-left: 4em;
+    margin-right: 4em;
+    color: rgb(0, 0, 0);
 }
 
-.body{
-    color: var(#888);
-    line-height: 1.7;
-    
+.firstblockhead{
+    padding-top: 2em;
+    font-size: 2.70em;
+}
+
+.productsfirst{
+    padding-top: 4em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+
+.whatsapp{
+    fill: #25D366;
+}
+
+.bg-grey{
+    background-color: whitesmoke;
+}
+
+#sec-1{
+    margin-top: 100px;
 }
 
 .footer-top {
     padding-top: 90px;
     padding-bottom: 90px;
-    background-color: var(--dark);
+    background-color: #242933;
 }
 
 .footer-top a {
-    color: var(--body);
+    color: var(blue);
+    text-decoration: none;
 }
 
 .footer-top a:hover {
-    color: var(--white);
+    color: var(blue);
 }
 
 .footer-bottom {
